@@ -318,7 +318,7 @@ public class GildedRoseTests {
 	}
 	
 	private List<Item> buildList (Item item) {
-		List<Item> items = new ArrayList<> ();
+		List<Item> items = new ArrayList<Item> ();
 		items.add(item);
 		return items;
 	}
