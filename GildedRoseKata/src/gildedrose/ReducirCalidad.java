@@ -5,7 +5,7 @@ package gildedrose;
  */
 public class ReducirCalidad extends  GildedRose{
     public void ReducirC(Item item){
-        if (item.getName().equals("Conjured Mana Cake")){
+        if (item.getName().equals(Conjured)){
             item.setQuality(item.getQuality() - 2);
         }else {
             item.setQuality(item.getQuality() - 1);
